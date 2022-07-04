@@ -1,0 +1,36 @@
+
+.div{
+    font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border: #ffba00 solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15px;
+}
+.div2{
+    font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border: #ffba00 solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_div{
+    margin-top: 10px;
+    display: flex;
+}
+.top_div{
+    display: flex;
+}
+.left{
+    width: 150px;
+    text-align: center;
+    margin-right: 21px;
+}
+.right{
+    width: 150px;
+    text-align: center;
+}
