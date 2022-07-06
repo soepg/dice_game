@@ -27,3 +27,8 @@
     justify-content: end;
     width: 66.6%;
 }
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
