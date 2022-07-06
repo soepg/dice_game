@@ -1,7 +1,7 @@
 let user_number=document.getElementById("user_number");
 let btn=document.getElementById("ok_btn");
 let random_div=document.getElementById("random");
-let your_number=document.getElementById("your_number")
+let your_number=document.getElementById("your_number");
 btn.onclick=function () {
     let min = Math.ceil(1);
     let max = Math.floor(5);

@@ -4,6 +4,8 @@
     width: 150px;
     border: #ffba00 solid 3px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main_div{
     margin-top: 10px;
@@ -15,24 +17,14 @@
     background-color: black;
     border-radius: 50%;
 }
-.row {
+.row{
     display: flex;
-
+    justify-content: space-between;
 }
-.column{
-    display: flex;
-
-}
-.column_end{
-    display: flex;
-
-}
-.row_end{
-    display: flex;
-
-  }
-.center{
-    display: flex;
-    align-items: center;
+.row.center{
     justify-content: center;
+
+}
+.row.last{
+    flex-direction: row-reverse;
 }
