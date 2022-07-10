@@ -5,12 +5,12 @@ let your_number=document.getElementById("your_number");
 btn.onclick=function () {
     let min = Math.ceil(1);
     let max = Math.floor(5);
-    let random=Math.floor(Math.random() * (max - min + 1)) + min;
-    your_number.innerHTML=user_number.value;
-    random_div.innerHTML=random;
+    let random = Math.floor(Math.random() * (max - min + 1)) + min;
     console.log(random);
-    if (user_number.value==random){
-        alert("ПОБЕДА!!!");
+    switch (random){
+        case 1:document.getElementsByClassName("row center")[0].innerHTML="<div class=\"circle\"></div>";
+            break;
+        case 2:document.getElementsByClassName("row row last")[1].innerHTML="<div class=\"circle\"></div>";
+            break;
     }
-    user_number.value="";
 }
