@@ -10,7 +10,7 @@ btn.onclick=function () {
     switch (random){
         case 1:document.getElementsByClassName("row center")[0].innerHTML="<div class=\"circle\"></div>";
             break;
-        case 2:document.getElementsByClassName("row row last")[1].innerHTML="<div class=\"circle\"></div>";
-            break;
+        case 2:document.getElementsByClassName("row")[0].innerHTML="<div class=\"circle\"></div>";
+            document.getElementsByClassName("row last")[0].innerHTML="<div class=\"circle\"></div>";
     }
 }
