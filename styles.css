@@ -28,3 +28,17 @@
 .row.last{
     flex-direction: row-reverse;
 }
+.left{
+    width: 150px;
+    text-align: center;
+    margin-right: 21px;
+
+}
+.right {
+    width: 150px;
+    text-align: center;
+}
+.top_div{
+    display: flex;
+    font-size: 20px;
+}
